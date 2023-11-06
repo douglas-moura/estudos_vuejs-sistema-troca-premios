@@ -1,0 +1,60 @@
+$corPrim_1: #f5ebff;
+$corPrim: #8950eb;
+$corPrim_5: #4E28A9;
+$preto: #222;
+$cinza_1: #eee;
+$cinza_2: #ccc;
+$cinza_5: #444;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    background-color: #fff;
+
+    body {
+        box-sizing: border-box;
+        color: $preto;
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px !important;
+
+        h1, h2, h3, h4, h5, h6 {
+            margin: 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+
+            .linhaForm {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+
+        .btnPrim {
+            background-color: $corPrim;
+            padding: 1rem;
+            border-radius: .5rem;
+            outline: 0;
+            border: 0;
+            font-size: 1rem;
+            color: #fff;
+            cursor: pointer;
+            transition: .2s;
+
+            &:hover {
+                background-color: $corPrim_5;
+            }
+        }
+
+        .link {
+            color: $corPrim;
+            text-decoration: none;
+            margin: 0 !important;
+        }
+    }
+}
