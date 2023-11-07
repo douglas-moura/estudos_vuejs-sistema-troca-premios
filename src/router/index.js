@@ -15,14 +15,49 @@ const router = createRouter({
       component: () => import('../views/LoginView.vue')
     },
     {
-      path: '/dashboard',
-      name: 'dashboard',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/DashboardView.vue')
+      path: '/premios',
+      name: 'premios',
+      component: () => import('../views/CatalogoView.vue')
+    },
+    {
+      path: '/solicitado',
+      name: 'solicitado',
+      component: () => import('../views/PedidoFeitoView.vue')
+    },
+    {
+      path: '/pedidos',
+      name: 'pedidos',
+      component: () => import('../views/PedidosView.vue')
+    },
+    {
+      path: '/pontos',
+      name: 'pontos',
+      component: () => import('../views/PontosUserView.vue')
+    },
+    {
+      path: '/desempenho',
+      name: 'desempenho',
+      component: () => import('../views/DesempenhoView.vue')
+    },
+    {
+      path: '/comunicados',
+      name: 'comunicados',
+      component: () => import('../views/ComunicadosView.vue')
+    },
+    {
+      path: '/perfil',
+      name: 'perfil',
+      component: () => import('../views/UserView.vue')
     }
   ]
+})
+
+router.beforeEach((to, from, next) => {
+  if(to.name !== 'login' && !sessionStorage.getItem('authUser')) {
+    next({name: 'login'})
+  } else {
+    next()
+  }
 })
 
 export default router

@@ -1,27 +1,66 @@
-$corPrim_1: #f5ebff;
+$corPrim_0: #F2F0F5;
+$corPrim_1: #EDDCFE;
+$corPrim_2: #DABAFD;
+$corPrim_3: #C296F9;
+$corPrim_4: #AB7AF3;
 $corPrim: #8950eb;
-$corPrim_5: #4E28A9;
+$corPrim_7: #4E28A9;
 $preto: #222;
-$cinza_1: #eee;
-$cinza_2: #ccc;
+$cinza_1: #f5f5f5;
+$cinza_2: rgba(#ddd, .8);
+$cinza_3: #ccc;
+$cinza_4: #999;
 $cinza_5: #444;
 
+%barra-rolagem {
+    &::-webkit-scrollbar,
+    &::-webkit-scrollbar-track,
+    &::-webkit-scrollbar-thumb {
+        background: none;
+        border-radius: 10rem;
+        width: .5rem;
+    }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    &:hover {
+        &::-webkit-scrollbar-thumb {
+            background-color: $corPrim_3;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 12px !important;
+    }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    background-color: #fff;
+    background-color: $corPrim_0 !important;
+
 
     body {
         box-sizing: border-box;
         color: $preto;
         margin: 0;
         padding: 0;
-        font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 14px !important;
+        font-family: 'Lexend', 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        @extend %barra-rolagem;
 
         h1, h2, h3, h4, h5, h6 {
             margin: 0;
+        }
+
+        p {
+            margin: 0 !important;
         }
 
         form {
@@ -35,9 +74,13 @@ $cinza_5: #444;
             }
         }
 
+        button {
+            font-family: 'Lexend', 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
         .btnPrim {
             background-color: $corPrim;
-            padding: 1rem;
+            padding: 1rem 2rem;
             border-radius: .5rem;
             outline: 0;
             border: 0;
@@ -47,14 +90,163 @@ $cinza_5: #444;
             transition: .2s;
 
             &:hover {
-                background-color: $corPrim_5;
+                background-color: $corPrim_7;
             }
+        }
+
+        .btnBlock {
+            background-color: $cinza_2 !important;
+            cursor: not-allowed !important;
         }
 
         .link {
             color: $corPrim;
             text-decoration: none;
             margin: 0 !important;
+            cursor: pointer;
+        }
+
+        .sombra {
+            box-shadow: .1rem .1rem .8rem rgba($cinza_5, .2);
+        }
+
+        .pelicula {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+        }
+
+        .linhaForm {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #popups_box {
+            .popup-tela {
+                z-index: 9999;
+                position: fixed;
+                left: 0;
+                top: 0;
+                background-color: rgba(black, .5) !important;
+                width: 100%;
+                height: 100%;
+                display: flex;
+    
+                .popup-caixa {
+                    box-sizing: border-box;
+                    background-color: white;
+                    margin: auto;
+                    width: 20%;
+                    padding: 1rem;
+                    animation-name: entrada-fade-in;
+                    animation-duration: .5s;
+    
+                    span {
+                        display: flex;
+                        color: $cinza_4;
+                        float: right;
+                        right: 0;
+                        top: 0;
+                        cursor: pointer;
+                    }
+
+                    .popup-conteudo {
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .bloco {
+            box-sizing: border-box !important;
+            $border-radius-pai: .5rem;
+            $padding-pai: calc($border-radius-pai * 2);
+            border-radius: $border-radius-pai !important;
+            padding: $padding-pai;
+            div {
+                border-radius: calc($border-radius-pai / 2) !important;
+            }
+
+            .tab-estilo {
+                border-collapse: collapse;
+                width: 100%;
+
+                tr {
+                    th, td {
+                        //border: .1rem solid $cinza_3;
+                        padding: 1.5rem .5rem;
+
+                        &:first-of-type {
+                            text-align: center !important;
+                        }
+                    }
+
+                    th {
+                        background-color: $corPrim_0;
+                        text-align: left !important;
+
+                        &:first-of-type { border-radius: .25rem 0 0 0; }
+                        &:last-of-type { border-radius: 0 .25rem 0 0; }
+                    }
+                }
+
+                tbody {
+                    tr {
+                        border-bottom: .05rem solid $cinza_2;
+
+                        &:hover {
+                            background-color: rgba($cinza_1, .5);
+                        }
+                    }
+                }
+
+
+                tfoot {
+                    tr {
+                        background-color: $preto !important;
+                        color: white;
+
+                        td {
+                            font-size: 1rem !important;
+                            &:first-of-type { border-radius: 0 0 0 .25rem; }
+                            &:last-of-type { border-radius: 0 0 .25rem 0; }
+
+                            p {
+                                font-size: .6rem !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .w40_40 { width: 100% !important;}
+        .w30_40 { width: 73.5% !important;}
+        .w25_40 { width: 63.75% !important;}
+        .w20_40 { width: 49.4% !important;}
+        .w15_40 { width: 35% !important;}
+        .w10_40 { width: 24.25% !important;}
+
+        .no-data {
+            background-color: $corPrim_0;
+            min-height: 20rem !important;
+            color: $cinza_4;
+        }
+    }
+
+    @keyframes entrada-fade-in {
+        from {
+            opacity: 0;
+            transform: scale(1.1);
+        }
+
+        to {
+            opacity: 1;
+            transform: scale(1);
         }
     }
 }

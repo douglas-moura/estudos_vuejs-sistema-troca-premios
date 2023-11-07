@@ -1,35 +1,50 @@
 <template>
     <main class="loginPagina">
-        <div class="loginBox">
+        <div v-if="cadSucesso == false" class="loginBox">
             <section>
-                <FormLogin v-if="loginTela" @mudar-form="trocarFormulario" />
-                <FormRegistro v-else @mudar-form="trocarFormulario" />
+                <FormLogin
+                    v-if="loginTela"
+                    @mudar-form="trocarFormulario"
+                />
+                <FormRegistro
+                    v-else
+                    @mudar-form="trocarFormulario"
+                    @cadastro-sucesso="telaParabens"
+                />
             </section>
             <section>
                 <img src="../assets/img/pexels-caio-93532.jpg" alt="">
             </section>
         </div>
+        <CadastroSucesso v-else @cadastro-sucesso="telaParabens" />
     </main>
 </template>
 
 <script>
-    import FormLogin from '../components/forms/FormLogin.vue';
-    import FormRegistro from '../components/forms/FormRegistro.vue';
+    import FormLogin from '../components/FormLogin.vue';
+    import FormRegistro from '../components/FormRegistro.vue';
+    import CadastroSucesso from '../components/CadastroSucesso.vue';
 
     export default {
-        name: 'Login',
+        name: 'LoginView',
         components: {
             FormLogin,
-            FormRegistro
+            FormRegistro,
+            CadastroSucesso
         },
         data() {
             return {
-                loginTela: true
+                loginTela: true,
+                cadSucesso: false
             }
         },
         methods: {
             trocarFormulario() {
                 return this.loginTela = !this.loginTela
+            },
+            telaParabens() {
+                this.cadSucesso = !this.cadSucesso
+                this.loginTela = true
             }
         },
     }
@@ -42,13 +57,14 @@
         height: 100%;
         position: absolute;
         display: flex;
+        background-color: $cinza_1;
 
         .loginBox {
             display: flex;
             box-sizing: border-box;
             width: 50%;
             margin: auto;
-            aspect-ratio: 1 / .75;
+            aspect-ratio: 1 / .65;
             background-color: #fff;
             box-shadow: 0 2rem 2rem rgba($color: #000000, $alpha: .2);
 

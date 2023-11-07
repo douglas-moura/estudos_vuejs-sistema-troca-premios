@@ -17,5 +17,8 @@ export default defineConfig({
         preprocessorOptions: {
             scss: { additionalData: `@import "src/assets/scss/app.scss";`}
         }
-    }
+    },
+    optimizeDeps: {
+        exclude: ['vue-api-query'],
+    },
 })

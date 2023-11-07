@@ -1,0 +1,1471 @@
+{
+    "catalogo": {
+        "categorias": {
+            "0": "Game",
+            "1": "Eletrodom\u00e9stico",
+            "2": "Eletroeletr\u00f4nico",
+            "3": "Brinquedo",
+            "6": "Smartphone",
+            "8": "Utens\u00edlio",
+            "9": "Sa\u00fade",
+            "10": "Cama, Mesa e Banho",
+            "11": "Acess\u00f3rio"
+        },
+        "produtos": [
+            {
+                "id": 1,
+                "ativo": 1,
+                "codigo": 10304,
+                "nome": "Console PlayStation 5",
+                "descricao": "Desfrute do carregamento do seu PS5, extremamente r\u00e1pido com o SSD de alt\u00edssima velocidade, uma imers\u00e3o mais profunda com suporte a feedback t\u00e1til, gatilhos adapt\u00e1veis e \u00e1udio 3D, al\u00e9m de uma gera\u00e7\u00e3o in\u00e9dita de jogos incr\u00edveis para PlayStation.",
+                "categoria": "Game",
+                "valor": 3599.91,
+                "voltagem": 2
+            },
+            {
+                "id": 2,
+                "ativo": 1,
+                "codigo": 20445,
+                "nome": "Geladeira Frost Free",
+                "descricao": "Tenha mais espa?o, tecnologia e comodidade na sua cozinha com a Geladeira TF39 Frost Free 310 Litros Platinum. Foi feito para quem n?o abre m?o de um eletrodom?stico moderno e recheado de funcionalidades.",
+                "categoria": "Eletrodom\u00e9stico",
+                "valor": 2699,
+                "voltagem": 2
+            },
+            {
+                "id": 3,
+                "ativo": 1,
+                "codigo": 11209,
+                "nome": "Smart TV 65\"",
+                "descricao": "Uma Smart TV para curtir seus filmes, s?ries e programas favoritos, com toda a qualidade de som, imagem e tecnologias dispon?veis, atualmente. Essa ? a PUG7406, da Philips.",
+                "categoria": "Eletroeletr\u00f4nico",
+                "valor": 3199,
+                "voltagem": 2
+            },
+            {
+                "id": 4,
+                "ativo": 1,
+                "codigo": 20205,
+                "nome": "Quebra Cabe\u00e7a 5000p\u00e7s",
+                "descricao": "Quebra Cabe\u00e7a 5000 Pe\u00e7as Expresso - Adultos e Crian\u00e7as +14 Anos",
+                "categoria": "Brinquedo",
+                "valor": 204.78,
+                "voltagem": 0
+            },
+            {
+                "id": 5,
+                "ativo": 1,
+                "codigo": 33908,
+                "nome": "Forno Micro-Ondas",
+                "descricao": "Muito mais do que um simples equipamento para aquecer alimentos, o Forno de Micro-ondas Philco PMO28 vai possibilitar que voc\u00ea prepare diversas refei\u00e7\u00f5es com praticidade, e ainda agregar\u00e1 valor \u00e0 decora\u00e7\u00e3o da sua cozinha, j\u00e1 que possui um design moderno e sofisticado.",
+                "categoria": "Eletrodom\u00e9stico",
+                "valor": 679.15,
+                "voltagem": 2
+            },
+            {
+                "id": 6,
+                "ativo": 1,
+                "codigo": 11223,
+                "nome": "Notebook",
+                "descricao": "Experi\u00eancia imersiva em tela full HD com bordas mais finas em 15.6\u201d.\r\nOs mais recentes processadores Intel\u00ae CoreTM de 11a gera\u00e7\u00e3o oferecem uma boa capacidade de resposta e permitem a realiza\u00e7\u00e3o de tarefas simult\u00e2neas de forma suave e cont\u00ednua.\r\nPensado para o dia a dia: alterne entre aplicativos abertos com 8 GB de mem\u00f3ria. O SSD ainda proporciona maior tempo de bateria e performance mais silenciosa e r\u00e1pida.\r\n\r\n",
+                "categoria": "Eletroeletr\u00f4nico",
+                "valor": 2231.07,
+                "voltagem": 2
+            },
+            {
+                "id": 7,
+                "ativo": 1,
+                "codigo": 13777,
+                "nome": "Smartphone 128GB Dual SIM",
+                "descricao": "O MediaTek Dimensity 810 adota um processamento superior de 6 nm e possui uma CPU octa-core com velocidade de at\u00e9 2,4 GHz. Chipset, como o \"cora\u00e7\u00e3o\" de um smartphone, destaca-se notavelmente pelo seu desempenho, efici\u00eancia e velocidade.",
+                "categoria": "Smartphone",
+                "valor": 1153,
+                "voltagem": 2
+            },
+            {
+                "id": 8,
+                "ativo": 1,
+                "codigo": 45600,
+                "nome": "Boneca Articulada",
+                "descricao": "Com os p\u00e9s na areia e as m\u00e3os segurando um sorvete, a Barbie com cabelo loiro tem todos os elementos essenciais para um dia relaxante em Malibu! Ela usa uma roupa de mergulho rosa de ver\u00e3o e carrega uma sacola cheia de acess\u00f3rios de praia. Crian\u00e7as a partir de 3 anos v\u00e3o se divertir muito com esta Barbie de praia! A boneca n\u00e3o fica em p\u00e9 sozinha. As cores e as decora\u00e7\u00f5es podem variar.",
+                "categoria": "Brinquedo",
+                "valor": 129.99,
+                "voltagem": 0
+            },
+            {
+                "id": 18,
+                "ativo": 1,
+                "codigo": 10092,
+                "nome": "M\u00e1quina de Massas",
+                "descricao": "Confecciona Em A\u00e7o Inox, Esta Maquina De Massa Faz Tr\u00eas Tipos De Massas: Talharim, Espaguete E Lasanha. Perfeita Para Voc\u00ea Preparar Essas Deliciosas Massas Caseiras Fresquinhas Para A Fam\u00edlia Saborear.Esta Maquina De Massa \u00c9 R\u00e1pida E F\u00e1cil De Usar, Tem Capacidade Para Produzir 5 Kg Me Massa Por Hora Faz De Tr\u00eas A Cinco Por\u00e7\u00f5es Em Para Servir Em Apenas 10 Minutos.",
+                "categoria": "Utens\u00edlio",
+                "valor": 117.91,
+                "voltagem": 0
+            },
+            {
+                "id": 19,
+                "ativo": 1,
+                "codigo": 10900,
+                "nome": "Massageador Pessoal",
+                "descricao": "Para uma massagem intensa e relaxante. O Massageador Pessoal G-Tech IR-Magnet Plus possui 3 controles de fun\u00e7\u00e3o: massagem, calor infravermelho ou massagem com calor infravermelho. Na massagem basta escolher a parte do corpo de sua prefer\u00eancia e colocar o acess\u00f3rio selecionado. Na op\u00e7\u00e3o Calor Infravermelho, o calor penetra profundamente na pele. A pele esquenta, os vasos sangu\u00edneos se dilatam e o fluxo do sangue \u00e9 estimulado.",
+                "categoria": "Sa\u00fade",
+                "valor": 279,
+                "voltagem": 1
+            },
+            {
+                "id": 20,
+                "ativo": 1,
+                "codigo": 34109,
+                "nome": "Jogo de Banho",
+                "descricao": "Jogo de banho, fabricadas pela Buddemeyer. As toalhas do jogo de banho fio penteado algod\u00e3o eg\u00edpcio s\u00e3o produzidas em felpa 100% algod\u00e3o com barrado trabalhado. Algod\u00e3o de fibra extra longa e macia s\u00f3 \u00e9 encontrado no Egito, onde o clima \u00e9 ideal para seu cultivo. Toque sedoso, cores vibrantes e longa durabilidade s\u00e3o os maiores benef\u00edcios desta mat\u00e9ria prima.",
+                "categoria": "Cama, Mesa e Banho",
+                "valor": 29.9,
+                "voltagem": 0
+            },
+            {
+                "id": 21,
+                "ativo": 1,
+                "codigo": 67891,
+                "nome": "Squeeze",
+                "descricao": "Apesar de n\u00e3o ser t\u00e9rmico ele mantem a temperatura um tempo maior do que o squeeze pl\u00e1stico. - Material em Alum\u00ednio - Tampa Pl\u00e1stica com rosca dupla para evitar vazamentos, bico com tampa o que mant\u00e9m o local mais higienizado.",
+                "categoria": "Acess\u00f3rio",
+                "valor": 29.9,
+                "voltagem": 0
+            },
+            {
+                "id": 22,
+                "ativo": 1,
+                "codigo": 92871,
+                "nome": "Aparelho de Fondue\r\n",
+                "descricao": "Forma, 807960, Kit Para Fondue 16 Pe\u00e7as Girat\u00f3rio Aparelho Para Fondue, cor Preto, A\u00e7o.",
+                "categoria": "Eletrodom\u00e9stico",
+                "valor": 218.58,
+                "voltagem": 1
+            },
+            {
+                "id": 23,
+                "ativo": 1,
+                "codigo": 54637,
+                "nome": "Lava Lou\u00e7as Eletr\u00f4nica",
+                "descricao": "Lava Lou\u00e7as Brastemp 8 Servi\u00e7os Branca BLF08BB \u2013 127 Volts A Lava Lou\u00e7as Brastemp 8 Servi\u00e7os Branca BLF08BB \u2013 127 Volts, conta com design ainda mais moderno, \u00e9 solu\u00e7\u00e3o ideal para a praticidade na sua cozinha, otimizando o seu tempo e eliminando as lou\u00e7as sujas mais dif\u00edceis.",
+                "categoria": "Eletrodom\u00e9stico",
+                "valor": 1839,
+                "voltagem": 2
+            },
+            {
+                "id": 24,
+                "ativo": 1,
+                "codigo": 33980,
+                "nome": "Jogo Cara a Cara",
+                "descricao": "Jogo Cara a Cara da Estrela. Jogo de adivinha\u00e7\u00e3o onde as crian\u00e7as usam toda a sua capacidade de dedu\u00e7\u00e3o e mem\u00f3ria exercitando a mente e se divertindo muito ao mesmo tempo! O jogo que voc\u00ea j\u00e1 conhece est\u00e1 de cara nova: s\u00e3o novos personagens, novo layout e novos tabuleiros, muito mais modernos pra tornarem este cl\u00e1ssico ainda mais divertido.",
+                "categoria": "Brinquedo",
+                "valor": 89.01,
+                "voltagem": 0
+            }
+        ]
+    },
+    "usuarios": {
+        "1": {
+            "id": 1,
+            "nome": "Douglas",
+            "sobrenome": "Moura",
+            "email": "douglas.moura@email.com",
+            "telefone": "11953055287",
+            "senha": "12345dsm",
+            "nasc": "1997-04-22",
+            "cargo": "Vendedor",
+            "endereco": [
+                {
+                    "id": 1,
+                    "user_id": 1,
+                    "endereco": "Rua Marginal Direita",
+                    "numero": "293A",
+                    "compl": "Casa",
+                    "bairro": "Vila Mariana",
+                    "cep": "08535-450",
+                    "cidade": "Ferraz de Vasconcelos",
+                    "uf": "SP"
+                },
+                {
+                    "id": 2,
+                    "user_id": 1,
+                    "endereco": "Rua Nossa Senhora Aparecida",
+                    "numero": "6",
+                    "compl": "Casa 2",
+                    "bairro": "Jardim Felicidade",
+                    "cep": "02326-105",
+                    "cidade": "S\u00e3o Paulo",
+                    "uf": "SP"
+                }
+            ],
+            "pontuacao": {
+                "pontos_base": [
+                    {
+                        "mes_1": 0,
+                        "mes_2": 0,
+                        "mes_3": 38900,
+                        "mes_4": 0,
+                        "mes_5": 72100,
+                        "mes_6": 34450,
+                        "mes_7": 55600,
+                        "mes_8": 78802,
+                        "mes_9": 99410,
+                        "mes_10": null,
+                        "mes_11": null,
+                        "mes_12": null
+                    }
+                ],
+                "pontos_bonus": [
+                    {
+                        "mes_1": null,
+                        "mes_2": null,
+                        "mes_3": 3000,
+                        "mes_4": null,
+                        "mes_5": 2500,
+                        "mes_6": null,
+                        "mes_7": null,
+                        "mes_8": null,
+                        "mes_9": null,
+                        "mes_10": null,
+                        "mes_11": null,
+                        "mes_12": null
+                    }
+                ],
+                "pontos_extornados": [
+                    {
+                        "mes_1": null,
+                        "mes_2": null,
+                        "mes_3": null,
+                        "mes_4": null,
+                        "mes_5": null,
+                        "mes_6": null,
+                        "mes_7": null,
+                        "mes_8": null,
+                        "mes_9": 11891,
+                        "mes_10": null,
+                        "mes_11": null,
+                        "mes_12": null
+                    }
+                ],
+                "pontos_observacoes": [
+                    {
+                        "mes_1": null,
+                        "mes_2": null,
+                        "mes_3": "@ul@@li@B\u00f4nus - Melhor Vendedor@\/li@@\/ul@",
+                        "mes_4": null,
+                        "mes_5": "@ul@@li@B\u00f4nus - Vendas de Linha de Produtos Espec\u00edfica@\/li@@\/ul@",
+                        "mes_6": null,
+                        "mes_7": null,
+                        "mes_8": null,
+                        "mes_9": "@ul@@li@Extorno de produto - Jogo Cara a Cara@\/li@@li@Extorno de produto - Squeeze@\/li@@\/ul@",
+                        "mes_10": null,
+                        "mes_11": null,
+                        "mes_12": null
+                    }
+                ]
+            },
+            "desempenho": {
+                "metas": [
+                    {
+                        "mes_1": 450,
+                        "mes_2": 1440,
+                        "mes_3": 550.2,
+                        "mes_4": 1200.7,
+                        "mes_5": 660.8,
+                        "mes_6": 980.1,
+                        "mes_7": 1670.88,
+                        "mes_8": 490.7,
+                        "mes_9": 1050.6,
+                        "mes_10": 600,
+                        "mes_11": 740.2,
+                        "mes_12": 1590.3,
+                        "meta_anual": 20424.28
+                    }
+                ],
+                "vendas": [
+                    {
+                        "mes_1": 230.56,
+                        "mes_2": 1330.8,
+                        "mes_3": 780.12,
+                        "mes_4": 900,
+                        "mes_5": 1020.5,
+                        "mes_6": 1770.9,
+                        "mes_7": 3900,
+                        "mes_8": 940.7,
+                        "mes_9": 3344.07,
+                        "mes_10": null,
+                        "mes_11": null,
+                        "mes_12": null,
+                        "realizado_anual": null
+                    }
+                ],
+                "realizado": [
+                    {
+                        "mes_1": "51.24",
+                        "mes_2": "92.42",
+                        "mes_3": "141.79",
+                        "mes_4": "74.96",
+                        "mes_5": "154.43",
+                        "mes_6": "180.69",
+                        "mes_7": "233.41",
+                        "mes_8": "191.71",
+                        "mes_9": "318.30",
+                        "mes_10": null,
+                        "mes_11": null,
+                        "mes_12": null
+                    }
+                ],
+                "comunicados": [
+                    {
+                        "qtd_comunicados": 9,
+                        "mes_1": [
+                            {
+                                "id": 1,
+                                "user_id": 1,
+                                "modelo": "realizado_90-100",
+                                "data_coment": "2023-01-12",
+                                "periodo": "mes_1",
+                                "info_1": "",
+                                "info_2": "",
+                                "visto": 1,
+                                "mensagem": "@h1@Ol\u00e1 @nome@,@\/h1@@br@@br@\n@p@Quero te parabenizar pelo incr\u00edvel desempenho em @mes@, atingindo @realizado@ da sua meta de @meta@. Isso \u00e9 um feito e tanto! Eu sei que, infelizmente, n\u00e3o vai rolar uma pontua\u00e7\u00e3o correspondente dessa vez, mas n\u00e3o deixa isso te desanimar!@\/p@\n@p@Estamos de olho no seu esfor\u00e7o constante, e acredito que nos pr\u00f3ximos meses as coisas v\u00e3o mudar. Continue com essa dedica\u00e7\u00e3o incr\u00edvel, porque, com certeza, ela n\u00e3o passa despercebida.@\/p@\n@h2@Parab\u00e9ns novamente e continue focado!@\/h2@\n"
+                            },
+                            {
+                                "id": 19,
+                                "user_id": 1,
+                                "modelo": "boas_vindas",
+                                "data_coment": "2023-01-01",
+                                "periodo": "mes_1",
+                                "info_1": "Seja muito bem-vindo \u00e0 nossa equipe de campe\u00f5es! Estamos empolgados e gratos por t\u00ea-lo(a) a bordo na nossa campanha de incentivos. Sua energia positiva e dedica\u00e7\u00e3o j\u00e1 s\u00e3o not\u00e1veis, e mal podemos esperar para ver as incr\u00edveis contribui\u00e7\u00f5es que voc\u00ea trar\u00e1 para o time.@br@@br@\n\nAqui, acreditamos que cada esfor\u00e7o conta, e voc\u00ea faz parte de um grupo excepcional que busca constantemente a excel\u00eancia. Esta campanha \u00e9 uma oportunidade para todos n\u00f3s brilharmos juntos, e sabemos que sua paix\u00e3o e comprometimento ser\u00e3o uma inspira\u00e7\u00e3o para todos ao seu redor.@br@@br@\n\nEstamos construindo n\u00e3o apenas uma equipe, mas uma fam\u00edlia, e sua presen\u00e7a \u00e9 um passo fundamental nessa jornada emocionante. Se precisar de suporte, ideias ou apenas uma palavra amiga, saiba que estamos aqui para voc\u00ea.@br@@br@\n\nQue esta campanha de incentivos seja repleta de conquistas, aprendizados e, \u00e9 claro, de muita divers\u00e3o. Juntos, somos impar\u00e1veis!@br@@br@\n\nSeja bem-vindo(a)!",
+                                "info_2": "",
+                                "visto": 1,
+                                "mensagem": "@h1@Bem vindo @nome@,@\/h1@@br@@br@\n@p@ @conteudo@ @\/p@"
+                            }
+                        ],
+                        "mes_2": [
+                            {
+                                "id": 2,
+                                "user_id": 1,
+                                "modelo": "realizado_100-120",
+                                "data_coment": "2023-02-09",
+                                "periodo": "mes_2",
+                                "info_1": "",
+                                "info_2": "",
+                                "visto": 1,
+                                "mensagem": "@h1@Parab\u00e9ns @nome@!@\/h1@@br@@br@\n@p@Quero come\u00e7ar esta mensagem com uma explos\u00e3o de parab\u00e9ns! Seu desempenho recente, alcan\u00e7ando incr\u00edveis @realizado@ da sua meta de @meta@, \u00e9 realmente not\u00e1vel e digno de celebra\u00e7\u00e3o. Que conquista incr\u00edvel!@\/p@\n@p@Fico feliz em informar que, em reconhecimento ao seu excepcional trabalho, voc\u00ea ganhou @pontos@ pontos. Sua dedica\u00e7\u00e3o e excel\u00eancia n\u00e3o apenas elevaram os padr\u00f5es, mas tamb\u00e9m inspiraram toda a equipe.@\/p@\n@p@Continue brilhando e trazendo essa energia positiva para a equipe. Estamos ansiosos para mais sucessos juntos!@\/p@\n@h2@Parab\u00e9ns novamente e obrigado por sua contribui\u00e7\u00e3o excepcional!@\/h2@"
+                            },
+                            {
+                                "id": 3,
+                                "user_id": 1,
+                                "modelo": "comunicado_geral",
+                                "data_coment": "2023-02-09",
+                                "periodo": "mes_2",
+                                "info_1": "Comunicado 001",
+                                "info_2": "",
+                                "visto": 1,
+                                "mensagem": "@h1@Comunicado@\/h1@@br@@br@\n@p@ @conteudo@ @\/p@\n"
+                            },
+                            {
+                                "id": 9,
+                                "user_id": 1,
+                                "modelo": "comunicado_geral",
+                                "data_coment": "2023-02-14",
+                                "periodo": "mes_2",
+                                "info_1": "Comunicado 002",
+                                "info_2": "",
+                                "visto": 1,
+                                "mensagem": "@h1@Comunicado@\/h1@@br@@br@\n@p@ @conteudo@ @\/p@\n"
+                            }
+                        ],
+                        "mes_3": [
+                            {
+                                "id": 6,
+                                "user_id": 1,
+                                "modelo": "nv_premio",
+                                "data_coment": "2023-03-24",
+                                "periodo": "mes_3",
+                                "info_1": "@nome@, imagine mergulhar em uma experi\u00eancia visual imersiva e surpreendente, tudo isso proporcionado por uma incr\u00edvel TV de 80 polegadas. Com uma tela espa\u00e7osa que domina o ambiente, cada detalhe ganha vida de forma vibrante e realista.@br@@br@A resolu\u00e7\u00e3o de alta defini\u00e7\u00e3o faz com que cores e contrastes se destaquem, oferecendo uma qualidade de imagem que transforma cada filme, s\u00e9rie ou jogo em uma jornada visual envolvente.",
+                                "info_2": "77124",
+                                "visto": 1,
+                                "mensagem": "@h1@Pr\u00eamio Novo!@\/h1@@br@@br@\n@p@ @conteudo@ @\/p@\n<img @imagem-cod@ width=\"200px\">"
+                            }
+                        ],
+                        "mes_4": [
+                            {
+                                "id": 12,
+                                "user_id": 1,
+                                "modelo": "realizado_90-100",
+                                "data_coment": "2023-04-06",
+                                "periodo": "mes_4",
+                                "info_1": "",
+                                "info_2": "",
+                                "visto": 1,
+                                "mensagem": "@h1@Ol\u00e1 @nome@,@\/h1@@br@@br@\n@p@Quero te parabenizar pelo incr\u00edvel desempenho em @mes@, atingindo @realizado@ da sua meta de @meta@. Isso \u00e9 um feito e tanto! Eu sei que, infelizmente, n\u00e3o vai rolar uma pontua\u00e7\u00e3o correspondente dessa vez, mas n\u00e3o deixa isso te desanimar!@\/p@\n@p@Estamos de olho no seu esfor\u00e7o constante, e acredito que nos pr\u00f3ximos meses as coisas v\u00e3o mudar. Continue com essa dedica\u00e7\u00e3o incr\u00edvel, porque, com certeza, ela n\u00e3o passa despercebida.@\/p@\n@h2@Parab\u00e9ns novamente e continue focado!@\/h2@\n"
+                            },
+                            {
+                                "id": 13,
+                                "user_id": 1,
+                                "modelo": "comunicado_geral",
+                                "data_coment": "2023-04-20",
+                                "periodo": "mes_4",
+                                "info_1": "Comunicado 003",
+                                "info_2": "",
+                                "visto": 1,
+                                "mensagem": "@h1@Comunicado@\/h1@@br@@br@\n@p@ @conteudo@ @\/p@\n"
+                            }
+                        ],
+                        "mes_5": [
+                            {
+                                "id": 16,
+                                "user_id": 1,
+                                "modelo": "evento_trimestral",
+                                "data_coment": "2023-05-30",
+                                "periodo": "mes_5",
+                                "info_1": "@nome@, junte-se a n\u00f3s para uma noite repleta de sabor e anima\u00e7\u00e3o em nosso evento trimestral em um aut\u00eantico restaurante mexicano!@br@@br@Em um ambiente descontra\u00eddo e acolhedor, convidamos voc\u00ea e sua equipe a desfrutarem de uma experi\u00eancia gastron\u00f4mica \u00fanica, repleta de deliciosos pratos mexicanos preparados pelos nossos talentosos chefs. Desde tacos irresist\u00edveis at\u00e9 guacamole fresco e margaritas artesanais, cada detalhe foi pensado para transportar voc\u00ea para a vibrante culin\u00e1ria mexicana.@br@@br@N\u00e3o perca a chance de se envolver em uma experi\u00eancia \u00fanica de equipe enquanto saboreia a aut\u00eantica comida mexicana. Reserve seu lugar agora e prepare-se para uma noite de sabor, divers\u00e3o e conex\u00f5es significativas!",
+                                "info_2": "promo-mexicano",
+                                "visto": 1,
+                                "mensagem": "@h1@Prepare-se!@\/h1@@br@@br@\n@p@ @conteudo@ @\/p@\n<img @imagem-cod@ width=\"200px\">@h2@Esperamos v\u00ea-lo l\u00e1!@\/h2@"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "2": {
+            "id": 2,
+            "nome": "Maria",
+            "sobrenome": "de Souza",
+            "email": "maria.souza@email.com.br",
+            "telefone": "21987677812",
+            "senha": "ms12345",
+            "nasc": "1973-03-10",
+            "cargo": "Gerente de Vendas",
+            "endereco": [],
+            "pontuacao": {
+                "pontos_base": [
+                    {
+                        "mes_1": 2333,
+                        "mes_2": 4356,
+                        "mes_3": 4388,
+                        "mes_4": 0,
+                        "mes_5": 0,
+                        "mes_6": 0,
+                        "mes_7": 0,
+                        "mes_8": 0,
+                        "mes_9": 0,
+                        "mes_10": 0,
+                        "mes_11": 0,
+                        "mes_12": 0
+                    }
+                ],
+                "pontos_bonus": [],
+                "pontos_extornados": [],
+                "pontos_observacoes": []
+            },
+            "desempenho": {
+                "metas": [
+                    {
+                        "mes_1": 233,
+                        "mes_2": 4356,
+                        "mes_3": 4388,
+                        "mes_4": 254,
+                        "mes_5": 1447.8,
+                        "mes_6": 2577.6,
+                        "mes_7": 152.4,
+                        "mes_8": 5788,
+                        "mes_9": 2540.8,
+                        "mes_10": 2574,
+                        "mes_11": 687,
+                        "mes_12": 2254.7,
+                        "meta_anual": 29525.1
+                    }
+                ],
+                "vendas": [
+                    {
+                        "mes_1": 9.99,
+                        "mes_2": 475,
+                        "mes_3": 79.99,
+                        "mes_4": 1478,
+                        "mes_5": 2558,
+                        "mes_6": 3544.1,
+                        "mes_7": 214,
+                        "mes_8": 4735,
+                        "mes_9": 288.4,
+                        "mes_10": null,
+                        "mes_11": null,
+                        "mes_12": null,
+                        "realizado_anual": null
+                    }
+                ],
+                "realizado": [
+                    {
+                        "mes_1": "4.29",
+                        "mes_2": "10.90",
+                        "mes_3": "1.82",
+                        "mes_4": "581.89",
+                        "mes_5": "176.68",
+                        "mes_6": "137.50",
+                        "mes_7": "140.42",
+                        "mes_8": "81.81",
+                        "mes_9": "11.35",
+                        "mes_10": null,
+                        "mes_11": null,
+                        "mes_12": null
+                    }
+                ],
+                "comunicados": [
+                    {
+                        "qtd_comunicados": 5,
+                        "mes_2": [
+                            {
+                                "id": 4,
+                                "user_id": 2,
+                                "modelo": "comunicado_geral",
+                                "data_coment": "2023-02-09",
+                                "periodo": "mes_2",
+                                "info_1": "Comunicado 001",
+                                "info_2": "",
+                                "visto": 1,
+                                "mensagem": "@h1@Comunicado@\/h1@@br@@br@\n@p@ @conteudo@ @\/p@\n"
+                            },
+                            {
+                                "id": 10,
+                                "user_id": 2,
+                                "modelo": "comunicado_geral",
+                                "data_coment": "2023-02-14",
+                                "periodo": "mes_2",
+                                "info_1": "Comunicado 002",
+                                "info_2": "",
+                                "visto": 1,
+                                "mensagem": "@h1@Comunicado@\/h1@@br@@br@\n@p@ @conteudo@ @\/p@\n"
+                            }
+                        ],
+                        "mes_3": [
+                            {
+                                "id": 7,
+                                "user_id": 2,
+                                "modelo": "nv_premio",
+                                "data_coment": "2023-03-24",
+                                "periodo": "mes_3",
+                                "info_1": "@nome@, imagine mergulhar em uma experi\u00eancia visual imersiva e surpreendente, tudo isso proporcionado por uma incr\u00edvel TV de 80 polegadas. Com uma tela espa\u00e7osa que domina o ambiente, cada detalhe ganha vida de forma vibrante e realista.@br@@br@A resolu\u00e7\u00e3o de alta defini\u00e7\u00e3o faz com que cores e contrastes se destaquem, oferecendo uma qualidade de imagem que transforma cada filme, s\u00e9rie ou jogo em uma jornada visual envolvente.",
+                                "info_2": "77124",
+                                "visto": 1,
+                                "mensagem": "@h1@Pr\u00eamio Novo!@\/h1@@br@@br@\n@p@ @conteudo@ @\/p@\n<img @imagem-cod@ width=\"200px\">"
+                            }
+                        ],
+                        "mes_4": [
+                            {
+                                "id": 14,
+                                "user_id": 2,
+                                "modelo": "comunicado_geral",
+                                "data_coment": "2023-04-20",
+                                "periodo": "mes_4",
+                                "info_1": "Comunicado 003",
+                                "info_2": "",
+                                "visto": 1,
+                                "mensagem": "@h1@Comunicado@\/h1@@br@@br@\n@p@ @conteudo@ @\/p@\n"
+                            }
+                        ],
+                        "mes_5": [
+                            {
+                                "id": 17,
+                                "user_id": 2,
+                                "modelo": "evento_trimestral",
+                                "data_coment": "2023-05-30",
+                                "periodo": "mes_5",
+                                "info_1": "@nome@, junte-se a n\u00f3s para uma noite repleta de sabor e anima\u00e7\u00e3o em nosso evento trimestral em um aut\u00eantico restaurante mexicano!@br@@br@Em um ambiente descontra\u00eddo e acolhedor, convidamos voc\u00ea e sua equipe a desfrutarem de uma experi\u00eancia gastron\u00f4mica \u00fanica, repleta de deliciosos pratos mexicanos preparados pelos nossos talentosos chefs. Desde tacos irresist\u00edveis at\u00e9 guacamole fresco e margaritas artesanais, cada detalhe foi pensado para transportar voc\u00ea para a vibrante culin\u00e1ria mexicana.@br@@br@N\u00e3o perca a chance de se envolver em uma experi\u00eancia \u00fanica de equipe enquanto saboreia a aut\u00eantica comida mexicana. Reserve seu lugar agora e prepare-se para uma noite de sabor, divers\u00e3o e conex\u00f5es significativas!",
+                                "info_2": "promo-mexicano",
+                                "visto": 1,
+                                "mensagem": "@h1@Prepare-se!@\/h1@@br@@br@\n@p@ @conteudo@ @\/p@\n<img @imagem-cod@ width=\"200px\">@h2@Esperamos v\u00ea-lo l\u00e1!@\/h2@"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "3": {
+            "id": 3,
+            "nome": "Amarildo",
+            "sobrenome": "Ferreira",
+            "email": "amarildo.ferreira@email.com",
+            "telefone": "11223344556",
+            "senha": "12345af",
+            "nasc": "1963-04-02",
+            "cargo": "Diretor Comercial",
+            "endereco": [
+                {
+                    "id": 3,
+                    "user_id": 3,
+                    "endereco": "Av Paulista",
+                    "numero": "228B",
+                    "compl": "Bloco B ",
+                    "bairro": "Jardins",
+                    "cep": "15487-955",
+                    "cidade": "S\u00e3o Paulo",
+                    "uf": "SP"
+                },
+                {
+                    "id": 24,
+                    "user_id": 3,
+                    "endereco": "Rua Tenente-Aviador Mota Lima, 170",
+                    "numero": "142",
+                    "compl": "Casa",
+                    "bairro": "City Caxingui",
+                    "cep": "05517-030",
+                    "cidade": "S\u00e3o Paulo",
+                    "uf": "SP"
+                }
+            ],
+            "pontuacao": {
+                "pontos_base": [
+                    {
+                        "mes_1": 5411,
+                        "mes_2": 7833,
+                        "mes_3": 9456,
+                        "mes_4": 0,
+                        "mes_5": 0,
+                        "mes_6": 0,
+                        "mes_7": 0,
+                        "mes_8": 0,
+                        "mes_9": 0,
+                        "mes_10": 0,
+                        "mes_11": 0,
+                        "mes_12": 0
+                    }
+                ],
+                "pontos_bonus": [],
+                "pontos_extornados": [],
+                "pontos_observacoes": []
+            },
+            "desempenho": {
+                "metas": [
+                    {
+                        "mes_1": 5411,
+                        "mes_2": 783,
+                        "mes_3": 9456,
+                        "mes_4": 1458.9,
+                        "mes_5": 887,
+                        "mes_6": 6532.6,
+                        "mes_7": 557.9,
+                        "mes_8": 1436,
+                        "mes_9": 6531,
+                        "mes_10": 258.7,
+                        "mes_11": 1244,
+                        "mes_12": 2577.3,
+                        "meta_anual": 42793.4
+                    }
+                ],
+                "vendas": [
+                    {
+                        "mes_1": 784,
+                        "mes_2": 254.9,
+                        "mes_3": 1256.7,
+                        "mes_4": 5841,
+                        "mes_5": 2569.99,
+                        "mes_6": 4785,
+                        "mes_7": 459,
+                        "mes_8": 4723.5,
+                        "mes_9": 1458.2,
+                        "mes_10": null,
+                        "mes_11": null,
+                        "mes_12": null,
+                        "realizado_anual": null
+                    }
+                ],
+                "realizado": [
+                    {
+                        "mes_1": "14.49",
+                        "mes_2": "32.55",
+                        "mes_3": "13.29",
+                        "mes_4": "400.37",
+                        "mes_5": "289.74",
+                        "mes_6": "73.25",
+                        "mes_7": "82.27",
+                        "mes_8": "328.93",
+                        "mes_9": "22.33",
+                        "mes_10": null,
+                        "mes_11": null,
+                        "mes_12": null
+                    }
+                ],
+                "comunicados": [
+                    {
+                        "qtd_comunicados": 5,
+                        "mes_2": [
+                            {
+                                "id": 5,
+                                "user_id": 3,
+                                "modelo": "comunicado_geral",
+                                "data_coment": "2023-02-09",
+                                "periodo": "mes_2",
+                                "info_1": "Comunicado 001",
+                                "info_2": "",
+                                "visto": 0,
+                                "mensagem": "@h1@Comunicado@\/h1@@br@@br@\n@p@ @conteudo@ @\/p@\n"
+                            },
+                            {
+                                "id": 11,
+                                "user_id": 3,
+                                "modelo": "comunicado_geral",
+                                "data_coment": "2023-02-14",
+                                "periodo": "mes_2",
+                                "info_1": "Comunicado 002",
+                                "info_2": "",
+                                "visto": 0,
+                                "mensagem": "@h1@Comunicado@\/h1@@br@@br@\n@p@ @conteudo@ @\/p@\n"
+                            }
+                        ],
+                        "mes_3": [
+                            {
+                                "id": 8,
+                                "user_id": 3,
+                                "modelo": "nv_premio",
+                                "data_coment": "2023-03-24",
+                                "periodo": "mes_3",
+                                "info_1": "@nome@, imagine mergulhar em uma experi\u00eancia visual imersiva e surpreendente, tudo isso proporcionado por uma incr\u00edvel TV de 80 polegadas. Com uma tela espa\u00e7osa que domina o ambiente, cada detalhe ganha vida de forma vibrante e realista.@br@@br@A resolu\u00e7\u00e3o de alta defini\u00e7\u00e3o faz com que cores e contrastes se destaquem, oferecendo uma qualidade de imagem que transforma cada filme, s\u00e9rie ou jogo em uma jornada visual envolvente.",
+                                "info_2": "77124",
+                                "visto": 0,
+                                "mensagem": "@h1@Pr\u00eamio Novo!@\/h1@@br@@br@\n@p@ @conteudo@ @\/p@\n<img @imagem-cod@ width=\"200px\">"
+                            }
+                        ],
+                        "mes_4": [
+                            {
+                                "id": 15,
+                                "user_id": 3,
+                                "modelo": "comunicado_geral",
+                                "data_coment": "2023-04-20",
+                                "periodo": "mes_4",
+                                "info_1": "Comunicado 003",
+                                "info_2": "",
+                                "visto": 0,
+                                "mensagem": "@h1@Comunicado@\/h1@@br@@br@\n@p@ @conteudo@ @\/p@\n"
+                            }
+                        ],
+                        "mes_5": [
+                            {
+                                "id": 18,
+                                "user_id": 3,
+                                "modelo": "evento_trimestral",
+                                "data_coment": "2023-05-30",
+                                "periodo": "mes_5",
+                                "info_1": "@nome@, junte-se a n\u00f3s para uma noite repleta de sabor e anima\u00e7\u00e3o em nosso evento trimestral em um aut\u00eantico restaurante mexicano!@br@@br@Em um ambiente descontra\u00eddo e acolhedor, convidamos voc\u00ea e sua equipe a desfrutarem de uma experi\u00eancia gastron\u00f4mica \u00fanica, repleta de deliciosos pratos mexicanos preparados pelos nossos talentosos chefs. Desde tacos irresist\u00edveis at\u00e9 guacamole fresco e margaritas artesanais, cada detalhe foi pensado para transportar voc\u00ea para a vibrante culin\u00e1ria mexicana.@br@@br@N\u00e3o perca a chance de se envolver em uma experi\u00eancia \u00fanica de equipe enquanto saboreia a aut\u00eantica comida mexicana. Reserve seu lugar agora e prepare-se para uma noite de sabor, divers\u00e3o e conex\u00f5es significativas!",
+                                "info_2": "promo-mexicano",
+                                "visto": 1,
+                                "mensagem": "@h1@Prepare-se!@\/h1@@br@@br@\n@p@ @conteudo@ @\/p@\n<img @imagem-cod@ width=\"200px\">@h2@Esperamos v\u00ea-lo l\u00e1!@\/h2@"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "25": {
+            "id": 25,
+            "nome": "Marilda",
+            "sobrenome": "de Moura",
+            "email": "marilda.moura@email.com",
+            "telefone": "(56) 43654-",
+            "senha": "12345mm",
+            "nasc": "1995-04-22",
+            "cargo": "Vendedor",
+            "endereco": [],
+            "pontuacao": {
+                "pontos_base": [],
+                "pontos_bonus": [],
+                "pontos_extornados": [],
+                "pontos_observacoes": []
+            },
+            "desempenho": {
+                "metas": [
+                    {
+                        "mes_1": 2544.4,
+                        "mes_2": 987,
+                        "mes_3": 3546.1,
+                        "mes_4": 1247,
+                        "mes_5": 6548,
+                        "mes_6": 7415,
+                        "mes_7": 785.66,
+                        "mes_8": 365,
+                        "mes_9": 4752,
+                        "mes_10": 1244,
+                        "mes_11": 850,
+                        "mes_12": 3325,
+                        "meta_anual": 34069.16
+                    }
+                ],
+                "vendas": [
+                    {
+                        "mes_1": 354.7,
+                        "mes_2": 2541,
+                        "mes_3": 124.3,
+                        "mes_4": 8574,
+                        "mes_5": 2547.6,
+                        "mes_6": 231,
+                        "mes_7": 987,
+                        "mes_8": 4523.7,
+                        "mes_9": 410,
+                        "mes_10": null,
+                        "mes_11": null,
+                        "mes_12": null,
+                        "realizado_anual": null
+                    }
+                ],
+                "realizado": [
+                    {
+                        "mes_1": "13.94",
+                        "mes_2": "257.45",
+                        "mes_3": "3.51",
+                        "mes_4": "687.57",
+                        "mes_5": "38.91",
+                        "mes_6": "3.12",
+                        "mes_7": "125.63",
+                        "mes_8": "1239.37",
+                        "mes_9": "8.63",
+                        "mes_10": null,
+                        "mes_11": null,
+                        "mes_12": null
+                    }
+                ],
+                "comunicados": [
+                    {
+                        "qtd_comunicados": 0
+                    }
+                ]
+            }
+        },
+        "31": {
+            "id": 31,
+            "nome": "Alesson",
+            "sobrenome": "de Souza",
+            "email": "alesson_souza@email.com",
+            "telefone": "12356454321",
+            "senha": "12345al",
+            "nasc": "1998-05-19",
+            "cargo": "Vendedor",
+            "endereco": [],
+            "pontuacao": {
+                "pontos_base": [],
+                "pontos_bonus": [],
+                "pontos_extornados": [],
+                "pontos_observacoes": []
+            },
+            "desempenho": {
+                "metas": [],
+                "vendas": [],
+                "realizado": [],
+                "comunicados": [
+                    {
+                        "qtd_comunicados": 0
+                    }
+                ]
+            }
+        },
+        "32": {
+            "id": 32,
+            "nome": "Nicoly",
+            "sobrenome": "Moura",
+            "email": "nicoly.moura@email.com.br",
+            "telefone": "54785412563",
+            "senha": "12345nc",
+            "nasc": "2005-06-07",
+            "cargo": "Auxiliar",
+            "endereco": [],
+            "pontuacao": {
+                "pontos_base": [],
+                "pontos_bonus": [],
+                "pontos_extornados": [],
+                "pontos_observacoes": []
+            },
+            "desempenho": {
+                "metas": [],
+                "vendas": [],
+                "realizado": [],
+                "comunicados": [
+                    {
+                        "qtd_comunicados": 0
+                    }
+                ]
+            }
+        },
+        "48": {
+            "id": 48,
+            "nome": "Nicoly",
+            "sobrenome": "Moura",
+            "email": "nicoly.moura22@email.com.br",
+            "telefone": "12345469843",
+            "senha": "123456",
+            "nasc": "2005-06-07",
+            "cargo": "Auxiliar",
+            "endereco": [],
+            "pontuacao": {
+                "pontos_base": [],
+                "pontos_bonus": [],
+                "pontos_extornados": [],
+                "pontos_observacoes": []
+            },
+            "desempenho": {
+                "metas": [],
+                "vendas": [],
+                "realizado": [],
+                "comunicados": [
+                    {
+                        "qtd_comunicados": 0
+                    }
+                ]
+            }
+        },
+        "49": {
+            "id": 49,
+            "nome": "Lorena",
+            "sobrenome": "Souza",
+            "email": "lorena.souza@email.com",
+            "telefone": "47841651651",
+            "senha": "123456",
+            "nasc": "2017-06-03",
+            "cargo": "Auxiliar",
+            "endereco": [],
+            "pontuacao": {
+                "pontos_base": [],
+                "pontos_bonus": [],
+                "pontos_extornados": [],
+                "pontos_observacoes": []
+            },
+            "desempenho": {
+                "metas": [
+                    {
+                        "mes_1": 521,
+                        "mes_2": 5877,
+                        "mes_3": 5899,
+                        "mes_4": 6320,
+                        "mes_5": 154.8,
+                        "mes_6": 258.1,
+                        "mes_7": 3654,
+                        "mes_8": 1478.99,
+                        "mes_9": 2148,
+                        "mes_10": 654,
+                        "mes_11": 688,
+                        "mes_12": 1378.2,
+                        "meta_anual": 29270.09
+                    }
+                ],
+                "vendas": [
+                    {
+                        "mes_1": 258.6,
+                        "mes_2": 2576,
+                        "mes_3": 6983.5,
+                        "mes_4": 745,
+                        "mes_5": 1256.3,
+                        "mes_6": 741.5,
+                        "mes_7": 5411.7,
+                        "mes_8": 412.9,
+                        "mes_9": 9854,
+                        "mes_10": null,
+                        "mes_11": null,
+                        "mes_12": null,
+                        "realizado_anual": null
+                    }
+                ],
+                "realizado": [
+                    {
+                        "mes_1": "49.64",
+                        "mes_2": "43.83",
+                        "mes_3": "118.38",
+                        "mes_4": "11.79",
+                        "mes_5": "811.56",
+                        "mes_6": "287.29",
+                        "mes_7": "148.10",
+                        "mes_8": "27.92",
+                        "mes_9": "458.75",
+                        "mes_10": null,
+                        "mes_11": null,
+                        "mes_12": null
+                    }
+                ],
+                "comunicados": [
+                    {
+                        "qtd_comunicados": 0
+                    }
+                ]
+            }
+        },
+        "56": {
+            "id": 56,
+            "nome": "Arlinda",
+            "sobrenome": "de Souza",
+            "email": "arlinda@email.com.br",
+            "telefone": "45649785641",
+            "senha": "123456",
+            "nasc": "1951-10-02",
+            "cargo": "Supervisor",
+            "endereco": [],
+            "pontuacao": {
+                "pontos_base": [],
+                "pontos_bonus": [],
+                "pontos_extornados": [],
+                "pontos_observacoes": []
+            },
+            "desempenho": {
+                "metas": [],
+                "vendas": [],
+                "realizado": [],
+                "comunicados": [
+                    {
+                        "qtd_comunicados": 1,
+                        "mes_1": [
+                            {
+                                "id": 20,
+                                "user_id": 56,
+                                "modelo": "boas_vindas",
+                                "data_coment": "2023-01-01",
+                                "periodo": "mes_1",
+                                "info_1": "Seja muito bem-vindo \u00e0 nossa equipe de campe\u00f5es! Estamos empolgados e gratos por t\u00ea-lo(a) a bordo na nossa campanha de incentivos. Sua energia positiva e dedica\u00e7\u00e3o j\u00e1 s\u00e3o not\u00e1veis, e mal podemos esperar para ver as incr\u00edveis contribui\u00e7\u00f5es que voc\u00ea trar\u00e1 para o time.@br@@br@\n\nAqui, acreditamos que cada esfor\u00e7o conta, e voc\u00ea faz parte de um grupo excepcional que busca constantemente a excel\u00eancia. Esta campanha \u00e9 uma oportunidade para todos n\u00f3s brilharmos juntos, e sabemos que sua paix\u00e3o e comprometimento ser\u00e3o uma inspira\u00e7\u00e3o para todos ao seu redor.@br@@br@\n\nEstamos construindo n\u00e3o apenas uma equipe, mas uma fam\u00edlia, e sua presen\u00e7a \u00e9 um passo fundamental nessa jornada emocionante. Se precisar de suporte, ideias ou apenas uma palavra amiga, saiba que estamos aqui para voc\u00ea.@br@@br@\n\nQue esta campanha de incentivos seja repleta de conquistas, aprendizados e, \u00e9 claro, de muita divers\u00e3o. Juntos, somos impar\u00e1veis!@br@@br@\n\nSeja bem-vindo(a)!",
+                                "info_2": "",
+                                "visto": 1,
+                                "mensagem": "@h1@Bem vindo @nome@,@\/h1@@br@@br@\n@p@ @conteudo@ @\/p@"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "57": {
+            "id": 57,
+            "nome": "Sarah",
+            "sobrenome": "Vieira",
+            "email": "sarah.vieira@email.com",
+            "telefone": "56515664351",
+            "senha": "123456vg",
+            "nasc": "1995-07-11",
+            "cargo": "Vendedor",
+            "endereco": [],
+            "pontuacao": {
+                "pontos_base": [],
+                "pontos_bonus": [],
+                "pontos_extornados": [],
+                "pontos_observacoes": []
+            },
+            "desempenho": {
+                "metas": [],
+                "vendas": [],
+                "realizado": [],
+                "comunicados": [
+                    {
+                        "qtd_comunicados": 0
+                    }
+                ]
+            }
+        },
+        "76": {
+            "id": 76,
+            "nome": "Pedro",
+            "sobrenome": "Carlos",
+            "email": "pedro.carlos@email.com",
+            "telefone": "74125874521",
+            "senha": "123456pr",
+            "nasc": "1970-03-13",
+            "cargo": "Supervisor",
+            "endereco": [],
+            "pontuacao": {
+                "pontos_base": [],
+                "pontos_bonus": [],
+                "pontos_extornados": [],
+                "pontos_observacoes": []
+            },
+            "desempenho": {
+                "metas": [],
+                "vendas": [],
+                "realizado": [],
+                "comunicados": [
+                    {
+                        "qtd_comunicados": 0
+                    }
+                ]
+            }
+        },
+        "77": {
+            "id": 77,
+            "nome": "Ricardo",
+            "sobrenome": "Ferreira",
+            "email": "ricardo-ff@email.com",
+            "telefone": "78958461222",
+            "senha": "123456rf",
+            "nasc": "1997-08-17",
+            "cargo": "Vendedor",
+            "endereco": [],
+            "pontuacao": {
+                "pontos_base": [],
+                "pontos_bonus": [],
+                "pontos_extornados": [],
+                "pontos_observacoes": []
+            },
+            "desempenho": {
+                "metas": [],
+                "vendas": [],
+                "realizado": [],
+                "comunicados": [
+                    {
+                        "qtd_comunicados": 0
+                    }
+                ]
+            }
+        },
+        "78": {
+            "id": 78,
+            "nome": "Ricardo",
+            "sobrenome": "Ferreira",
+            "email": "ricardo_fer@email.com.br",
+            "telefone": "74586322544",
+            "senha": "123456rf",
+            "nasc": "1997-08-17",
+            "cargo": "Vendedor",
+            "endereco": [],
+            "pontuacao": {
+                "pontos_base": [],
+                "pontos_bonus": [],
+                "pontos_extornados": [],
+                "pontos_observacoes": []
+            },
+            "desempenho": {
+                "metas": [],
+                "vendas": [],
+                "realizado": [],
+                "comunicados": [
+                    {
+                        "qtd_comunicados": 0
+                    }
+                ]
+            }
+        }
+    },
+    "pedidos": [
+        {
+            "id": 12,
+            "codigo": "116571526-09",
+            "user_id": 1,
+            "qtd_itens": 3,
+            "valor": 39347,
+            "frete": 1500,
+            "data_pedido": "2023-09-26",
+            "end_entrega": 1,
+            "itens": [
+                {
+                    "id": 14,
+                    "pedido_codigo": "116571526-09",
+                    "produto_codigo": 67891,
+                    "nome_prod": "Squeeze",
+                    "valor": 2990,
+                    "valor_total": 2990,
+                    "quantidade": 1,
+                    "cancelado": 0,
+                    "status_processado": "2023-09-26",
+                    "status_em_rota": "2023-09-28",
+                    "status_entrega": "2023-09-29",
+                    "status_atual": "Entregue"
+                },
+                {
+                    "id": 15,
+                    "pedido_codigo": "116571526-09",
+                    "produto_codigo": 92871,
+                    "nome_prod": "Aparelho de Fondue\r\n",
+                    "valor": 21858,
+                    "valor_total": 21858,
+                    "quantidade": 1,
+                    "cancelado": 0,
+                    "status_processado": "2023-09-29",
+                    "status_em_rota": "2023-09-28",
+                    "status_entrega": null,
+                    "status_atual": "Em rota de entrega"
+                },
+                {
+                    "id": 16,
+                    "pedido_codigo": "116571526-09",
+                    "produto_codigo": 45600,
+                    "nome_prod": "Boneca Articulada",
+                    "valor": 12999,
+                    "valor_total": 12999,
+                    "quantidade": 1,
+                    "cancelado": 0,
+                    "status_processado": "2023-09-27",
+                    "status_em_rota": "2023-09-29",
+                    "status_entrega": null,
+                    "status_atual": "Em rota de entrega"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "codigo": "116580126-09",
+            "user_id": 1,
+            "qtd_itens": 1,
+            "valor": 116800,
+            "frete": 1500,
+            "data_pedido": "2023-09-26",
+            "end_entrega": 1,
+            "itens": [
+                {
+                    "id": 17,
+                    "pedido_codigo": "116580126-09",
+                    "produto_codigo": 13777,
+                    "nome_prod": "Smartphone 128GB Dual SIM",
+                    "valor": 115300,
+                    "valor_total": 115300,
+                    "quantidade": 1,
+                    "cancelado": 0,
+                    "status_processado": "2023-09-26",
+                    "status_em_rota": null,
+                    "status_entrega": null,
+                    "status_atual": "Processado"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "codigo": "117021426-09",
+            "user_id": 1,
+            "qtd_itens": 2,
+            "valor": 13391,
+            "frete": 1500,
+            "data_pedido": "2023-09-26",
+            "end_entrega": 1,
+            "itens": [
+                {
+                    "id": 18,
+                    "pedido_codigo": "117021426-09",
+                    "produto_codigo": 67891,
+                    "nome_prod": "Squeeze",
+                    "valor": 2990,
+                    "valor_total": 2990,
+                    "quantidade": 1,
+                    "cancelado": 1,
+                    "status_processado": "2023-09-28",
+                    "status_em_rota": null,
+                    "status_entrega": null,
+                    "status_atual": "Cancelado"
+                },
+                {
+                    "id": 19,
+                    "pedido_codigo": "117021426-09",
+                    "produto_codigo": 33980,
+                    "nome_prod": "Jogo Cara a Cara",
+                    "valor": 8901,
+                    "valor_total": 8901,
+                    "quantidade": 1,
+                    "cancelado": 0,
+                    "status_processado": "2023-09-28",
+                    "status_em_rota": null,
+                    "status_entrega": null,
+                    "status_atual": "Processado"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "codigo": "115502827-09",
+            "user_id": 1,
+            "qtd_itens": 2,
+            "valor": 23400,
+            "frete": 1500,
+            "data_pedido": "2023-09-27",
+            "end_entrega": 1,
+            "itens": [
+                {
+                    "id": 20,
+                    "pedido_codigo": "115502827-09",
+                    "produto_codigo": 45600,
+                    "nome_prod": "Boneca Articulada",
+                    "valor": 12999,
+                    "valor_total": 12999,
+                    "quantidade": 1,
+                    "cancelado": 0,
+                    "status_processado": "2023-09-29",
+                    "status_em_rota": null,
+                    "status_entrega": null,
+                    "status_atual": "Processado"
+                },
+                {
+                    "id": 21,
+                    "pedido_codigo": "115502827-09",
+                    "produto_codigo": 33980,
+                    "nome_prod": "Jogo Cara a Cara",
+                    "valor": 8901,
+                    "valor_total": 8901,
+                    "quantidade": 1,
+                    "cancelado": 1,
+                    "status_processado": null,
+                    "status_em_rota": null,
+                    "status_entrega": null,
+                    "status_atual": "Cancelado"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "codigo": "117352829-09",
+            "user_id": 1,
+            "qtd_itens": 1,
+            "valor": 21978,
+            "frete": 1500,
+            "data_pedido": "2023-09-29",
+            "end_entrega": 2,
+            "itens": [
+                {
+                    "id": 25,
+                    "pedido_codigo": "117352829-09",
+                    "produto_codigo": 20205,
+                    "nome_prod": "Quebra Cabe\u00e7a 5000p\u00e7s",
+                    "valor": 20478,
+                    "valor_total": 20478,
+                    "quantidade": 1,
+                    "cancelado": 0,
+                    "status_processado": null,
+                    "status_em_rota": null,
+                    "status_entrega": null,
+                    "status_atual": "Solicitado"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "codigo": "117354729-09",
+            "user_id": 1,
+            "qtd_itens": 1,
+            "valor": 4490,
+            "frete": 1500,
+            "data_pedido": "2023-09-29",
+            "end_entrega": 2,
+            "itens": [
+                {
+                    "id": 26,
+                    "pedido_codigo": "117354729-09",
+                    "produto_codigo": 34109,
+                    "nome_prod": "Jogo de Banho",
+                    "valor": 2990,
+                    "valor_total": 2990,
+                    "quantidade": 1,
+                    "cancelado": 0,
+                    "status_processado": null,
+                    "status_em_rota": null,
+                    "status_entrega": null,
+                    "status_atual": "Solicitado"
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "codigo": "112093818-10",
+            "user_id": 1,
+            "qtd_itens": 2,
+            "valor": 7480,
+            "frete": 1500,
+            "data_pedido": "2023-10-18",
+            "end_entrega": 2,
+            "itens": [
+                {
+                    "id": 30,
+                    "pedido_codigo": "112093818-10",
+                    "produto_codigo": 34109,
+                    "nome_prod": "Jogo de Banho",
+                    "valor": 2990,
+                    "valor_total": 2990,
+                    "quantidade": 1,
+                    "cancelado": 0,
+                    "status_processado": null,
+                    "status_em_rota": null,
+                    "status_entrega": null,
+                    "status_atual": "Solicitado"
+                },
+                {
+                    "id": 31,
+                    "pedido_codigo": "112093818-10",
+                    "produto_codigo": 67891,
+                    "nome_prod": "Squeeze",
+                    "valor": 2990,
+                    "valor_total": 2990,
+                    "quantidade": 1,
+                    "cancelado": 0,
+                    "status_processado": null,
+                    "status_em_rota": null,
+                    "status_entrega": null,
+                    "status_atual": "Solicitado"
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "codigo": "112101718-10",
+            "user_id": 1,
+            "qtd_itens": 1,
+            "valor": 4490,
+            "frete": 1500,
+            "data_pedido": "2023-10-18",
+            "end_entrega": 2,
+            "itens": [
+                {
+                    "id": 32,
+                    "pedido_codigo": "112101718-10",
+                    "produto_codigo": 34109,
+                    "nome_prod": "Jogo de Banho",
+                    "valor": 2990,
+                    "valor_total": 2990,
+                    "quantidade": 1,
+                    "cancelado": 0,
+                    "status_processado": null,
+                    "status_em_rota": null,
+                    "status_entrega": null,
+                    "status_atual": "Solicitado"
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "codigo": "112133518-10",
+            "user_id": 1,
+            "qtd_itens": 1,
+            "valor": 4490,
+            "frete": 1500,
+            "data_pedido": "2023-10-18",
+            "end_entrega": 2,
+            "itens": [
+                {
+                    "id": 33,
+                    "pedido_codigo": "112133518-10",
+                    "produto_codigo": 34109,
+                    "nome_prod": "Jogo de Banho",
+                    "valor": 2990,
+                    "valor_total": 2990,
+                    "quantidade": 1,
+                    "cancelado": 0,
+                    "status_processado": null,
+                    "status_em_rota": null,
+                    "status_entrega": null,
+                    "status_atual": "Solicitado"
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "codigo": "112163118-10",
+            "user_id": 1,
+            "qtd_itens": 1,
+            "valor": 4490,
+            "frete": 1500,
+            "data_pedido": "2023-10-18",
+            "end_entrega": 2,
+            "itens": [
+                {
+                    "id": 34,
+                    "pedido_codigo": "112163118-10",
+                    "produto_codigo": 67891,
+                    "nome_prod": "Squeeze",
+                    "valor": 2990,
+                    "valor_total": 2990,
+                    "quantidade": 1,
+                    "cancelado": 0,
+                    "status_processado": null,
+                    "status_em_rota": null,
+                    "status_entrega": null,
+                    "status_atual": "Solicitado"
+                }
+            ]
+        }
+    ]
+}

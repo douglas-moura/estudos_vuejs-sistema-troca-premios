@@ -1,5 +1,5 @@
 <template>
-    <h1>{{ tituloTexto }}</h1>
+    <h1 class="titulo-pagina">{{ tituloTexto }}</h1>
 </template>
 
 <script>
@@ -11,10 +11,10 @@
     }
 </script>
 
-<style lang="scss">
-    h1 {
+<style lang="scss" scoped>   
+    .titulo-pagina {
         font-size: 2rem;
-        margin-bottom: 1.5rem !important;
-        color: $corPrim;
+        margin: 0 0 1.5rem 0 !important;
+        color: $preto !important;
     }
 </style>

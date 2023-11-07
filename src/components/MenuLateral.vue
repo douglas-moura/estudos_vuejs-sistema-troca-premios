@@ -1,33 +1,48 @@
 <template>
     <nav>
-        <div id="projetoTitulo">
-            <mdicon name="YoutubeGaming" size="30" />
-            <h3>Projeto VueJS</h3> 
-        </div>
+        <LogoTipo estilo="claro" />
         <div class="links">
-            <router-link to="/"><mdicon name="HomeVariantOutline" size="25" />Home</router-link>
-            <router-link to="/"><mdicon name="GiftOpenOutline" size="25" />Prêmios</router-link> 
-            <router-link to="/"><mdicon name="StarOutline" size="25" />Pontos</router-link> 
-            <router-link to="/"><mdicon name="CartOutline" size="25" />Meus Pedidos</router-link> 
-            <router-link to="/"><mdicon name="AccountOutline" size="25" />Perfil</router-link> 
-            <router-link to="/"><mdicon name="BellBadgeOutline" size="25" />Notificações</router-link>    
-            <router-link to="/login"><mdicon name="LogoutVariant" size="25" />Sair</router-link>
+            <router-link to="/"><mdicon name="HomeVariantOutline" size="25" />Início</router-link>
+            <router-link to="/premios"><mdicon name="GiftOpenOutline" size="25" />Prêmios</router-link>
+            <router-link to="/pedidos"><mdicon name="CartOutline" size="25" />Meus Pedidos</router-link>
+            <!--<router-link to="/pontos"><mdicon name="StarOutline" size="25" />Pontuação</router-link> -->
+            <router-link to="/desempenho"><mdicon name="Finance" size="25" />Desempenho</router-link> 
+            <router-link to="" @click="logOut"><mdicon name="LogoutVariant" size="25" />Sair</router-link>
         </div>
         <div class="links_suporte">
             <h3>Ajuda</h3>
-            <router-link to="/"><mdicon name="CogOutline" size="25" />Configurações</router-link>
             <router-link to="/"><mdicon name="AccountMultipleOutline" size="25" />Suporte</router-link>
+            <router-link to="/"><mdicon name="HelpCircleOutline" size="25" />FAQ</router-link>
         </div>
     </nav>
 </template>
 
 <script>
+    import LogoTipo from './layout/LogoTipo.vue'
 
+    export default {
+        name: 'MenuLateral',
+        data() {
+            return {
+                
+            }
+        },
+        components: {
+            LogoTipo
+        },
+        methods: {
+            logOut() {
+                sessionStorage.removeItem('authUser')
+                this.$router.push({name:'login'})
+            }
+        }
+    }
 </script>
 
 <style lang="scss">
     nav {
         box-sizing: border-box;
+        z-index: 9997;
         background-color: $preto;
         padding: 1rem;
         display: flex;
@@ -35,21 +50,6 @@
         width: 15%;
         position: fixed;
         height: 100%;
-
-        #projetoTitulo {
-            display: flex;
-            align-items: center;
-            margin: 2rem .5rem;
-            color: $corPrim;
-
-            svg {
-                background-color: $corPrim;
-                fill: #fff;
-                padding: .5rem;
-                border-radius: 50px;
-                margin-right: 1rem;
-            }
-        }
 
         .links_suporte,
         .links {
