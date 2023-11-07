@@ -2,11 +2,14 @@
     <main>
         <section class="user-pagina bloco">
             <TituloComp tituloTexto="Perfil" />
-            {{ console.log(endreco_cadastrado) }}
+            {{ console.log('Imagem Cadastrado', imagem_perfil) }}
             <div class="informacoes-user">
                 <div class="info-pessoal bloco">
                     <div class="imagem-perfil">
                         <picture class="sombra">
+                            <div>
+                                <p>Alterar foto de perfil</p>
+                            </div>
                             <img :src="'/src/assets/img/usuarios/perfil_' + this.usuario.id + '.jpg'" alt="" srcset="">
                             <img class="default-perfil" :src="'/src/assets/img/usuarios/default.png'" alt="" srcset="">
                         </picture>
@@ -250,15 +253,13 @@
         computed: {
             endreco_cadastrado() {
                 let enderecoUser = this.end_null
-
                 if(this.end_novo) {
-                    enderecoUser = this.end_novo
+                    enderecoUser = JSON.parse(this.end_novo)
                 } else {
                     if(this.end_banco) {
-                        enderecoUser = JSON.parse(this.end_banco)
+                        enderecoUser = this.end_banco
                     }
                 }
-                console.log(enderecoUser)
                 return enderecoUser
             }
         },
@@ -400,23 +401,44 @@
                     width: 35%;
 
                     picture {
+                        position: relative;
                         display: flex;
                         width: 80%;
                         border-radius: 50%;
                         overflow: hidden;
-                        background-color: white;
                         aspect-ratio: 1 / 1;
-                        margin-bottom: 1rem;
+                        margin-right: .5rem;
+                        border: .5rem solid white;
+                        transition: .2s;
+
+                        &:hover {
+                            div {
+                                opacity: 1;
+                            }
+                        }
+
+                        div {
+                            opacity: 0;
+                            cursor: pointer;
+                            display: flex;
+                            width: 100%;
+                            aspect-ratio: 1 / 1;
+                            background-color: #000000aa;
+                            position: absolute;
+                            transition: .1s;
+
+                            p {
+                                margin: auto !important;
+                                color: white;
+                                font-size: 1rem;
+                            }
+                        }
                         
                         img {
                             object-fit: cover;
                             margin: auto;
                             width: 100%;
                             height: 100%;
-                        }
-
-                        .default-perfil {
-                            opacity: .8;
                         }
                     }
 

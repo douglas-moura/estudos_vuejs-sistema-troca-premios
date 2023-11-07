@@ -614,6 +614,28 @@
                     "cep": "05517-030",
                     "cidade": "S\u00e3o Paulo",
                     "uf": "SP"
+                },
+                {
+                    "id": 25,
+                    "user_id": 3,
+                    "endereco": "Professor Luiz Gualberto, 183",
+                    "numero": "777",
+                    "compl": "Casa",
+                    "bairro": "Br\u00e1s",
+                    "cep": "12912-520",
+                    "cidade": "S\u00e3o Paulo",
+                    "uf": "SP"
+                },
+                {
+                    "id": 26,
+                    "user_id": 3,
+                    "endereco": "Rua Doutor Rui Batista Pereira - Caxingui, S\u00e3o Paulo - SP",
+                    "numero": "744",
+                    "compl": "Casa",
+                    "bairro": "Butant\u00e3",
+                    "cep": "05517-080",
+                    "cidade": "S\u00e3o Paulo",
+                    "uf": "SP"
                 }
             ],
             "pontuacao": {

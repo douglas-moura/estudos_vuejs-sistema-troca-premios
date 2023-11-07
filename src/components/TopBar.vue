@@ -150,7 +150,7 @@
                 overflow: hidden;
                 aspect-ratio: 1 / 1;
                 margin-right: .5rem;
-                border: .15rem solid white;
+                border: .2rem solid white;
                 
                 img {
                     object-fit: cover;
