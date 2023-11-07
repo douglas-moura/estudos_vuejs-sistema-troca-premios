@@ -1,6 +1,6 @@
-# 5_vue_proj
+# Projeto VueJS 3
 
-This template should help get you started developing with Vue 3 in Vite.
+Este é o resultado dos meu estudos em VueJS 3, esta é uma representação de uma plataforma para Campanhas de Incentivos de Colaboradores
 
 ## Recommended IDE Setup
 
