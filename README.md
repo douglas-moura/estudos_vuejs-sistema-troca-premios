@@ -1,6 +1,6 @@
 # Projeto VueJS 3
 
-Este é o resultado dos meu estudos em VueJS 3, esta é uma representação de uma plataforma para Campanhas de Incentivos de Colaboradores
+Este é o resultado dos meus estudos em VueJS 3, com os conhecimentos adquiridos eu criei uma plataforma para Campanhas de Incentivos de Colaboradores
 
 ## Recommended IDE Setup
 
